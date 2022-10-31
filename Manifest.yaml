@@ -4,4 +4,4 @@ Resources:
   MyNestedStack:
     Type: AWS::CloudFormation::Stack 
       Properties: 
-        TemplateURL: Test_vpc.yaml
+        TemplateURL: templates/Test_vpc.yaml
