@@ -1,4 +1,5 @@
-resources:
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
   - name: NetworkCompomentsAppStream
     resource_file: Test_vpc.yaml
     deploy_method: stack_set
