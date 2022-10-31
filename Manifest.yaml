@@ -1,0 +1,4 @@
+resources:
+  - name: NetworkCompomentsAppStream
+    resource_file: template/Test_vpc.yaml
+    deploy_method: stack_set
