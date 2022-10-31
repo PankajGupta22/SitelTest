@@ -1,9 +1,11 @@
-myVPC:
-  Type: AWS::EC2::VPC
-  Properties:
-    CidrBlock: 192.168.0.0/16
-    EnableDnsSupport: 'true'
-    EnableDnsHostnames: 'true'
-    Tags:
-     - Key: name
-       Value: testcicd
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  PankajVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 192.168.0.0/16
+      EnableDnsSupport: 'true'
+      EnableDnsHostnames: 'true'
+      Tags:
+       - Key: name
+         Value: testcicd
