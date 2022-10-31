@@ -3,5 +3,5 @@ AWSTemplateFormatVersion: '2010-09-09'
 Resources:
   MyNestedStack:
     Type: AWS::CloudFormation::Stack 
-      Properties: 
-        TemplateURL: templates/Test_vpc.yaml
+    Properties: 
+      TemplateURL: templates/Test_vpc.yaml
