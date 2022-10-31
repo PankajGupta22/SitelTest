@@ -9,3 +9,11 @@ Resources:
       Tags:
        - Key: name
          Value: testcicd
+  WorkspacesA:
+    Type: AWS::EC2::Subnet
+    DependsOn: PankajVPC
+    Properties:
+      VpcId:
+        Ref: PankajVPC
+      CidrBlock: 192.168.1.0/24
+      AvailabilityZone: 'us-west-2a'
